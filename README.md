@@ -13,7 +13,7 @@ Copy the file on:
 Then on NinjaTrader, New\NinjaScript Editor. Press the buttom: _Compile_
 After that, the indicator will be in the Indicators menu. (Ctrl + I)
 
-## Configuration
+## Configuration (default)
 
 <p align="center">
   <img src="https://github.com/rgutmen/VolumePercentage/blob/master/resources/VP_1.png" />
