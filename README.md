@@ -44,8 +44,9 @@ The functionality is described on the next lines, about why the bars painted lik
 8. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
 9. Is **magenta** Because the volume at least 130% than the previous bar.
 
-**The percentage 54.66% (in magenta above the candle bar), indicate accuratly what is the increment respect the previous bar, this means this volume bar is 54.66 times bigger than the previous one**
+**The percentage 54.66% (in magenta above the candle bar), indicate accuratly what is the increment respect the previous bar, this means this volume bar is 54.66 times bigger than the previous one. This number is holded on the candle bar until the volume exceeds a 30% for a new candle bar.**
 
+**For EACH candle bar, the volume percentage in relation to the previous bar is calculated. In the case of 154.66%, it means that the current bar is 154.66% higher than the previous one, but as soon as a new candle bar opens, the calculus starts for the new bar.**
 
 ## Functionality
 
