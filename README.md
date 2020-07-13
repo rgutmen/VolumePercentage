@@ -23,22 +23,22 @@ This indicator allows you to detect how the volume is fluctuating according to t
    
 ## How it works?
 
-Using the image below as example. The functionality is described on the next lines.
+The functionality is described on the next lines, about why the bars painted like they are in the image.
 
 <p align="center">
   <img src="https://github.com/rgutmen/VolumePercentage/blob/master/resources/VP_2.png" />
 </p>
 
 
-Bar 1. Is **magenta** Because the volume at least 130% than the previous bar.
-Bar 2. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
-Bar 3. Is **green** Because the volume is above 75% from the preivous bar.
-Bar 4. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
-Bar 5. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
-Bar 6. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
-Bar 7. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
-Bar 8. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
-Bar 9. Is **magenta** Because the volume at least 130% than the previous bar.
+1. Is **magenta** Because the volume at least 130% than the previous bar.
+2. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
+3. Is **green** Because the volume is above 75% from the preivous bar.
+4. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
+5. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
+6. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
+7. Is **yellow** Because the volume is between 50% and 75% from the preivous bar.
+8. Is **orange** Because the volume is between 25% and 50% from the preivous bar.
+9. Is **magenta** Because the volume at least 130% than the previous bar.
 
 **The percentage 54.66% (in magenta above the candle bar), indicate accuratly what is the increment respect the previous bar, this means this volume bar is 54.66 times bigger than the previous one**
 
