@@ -43,12 +43,6 @@ The functionality is described on the next lines, about why the bars painted lik
 **The percentage 54.66% (in magenta above the candle bar), indicate accuratly what is the increment respect the previous bar, this means this volume bar is 54.66 times bigger than the previous one**
 
 
-
-
-
-
-
-
 ## Functionality
 
    
