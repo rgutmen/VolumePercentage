@@ -2,6 +2,10 @@
 
 This indicator allows you to detect how the volume is fluctuating according to the price, especially in relevant levels like support and resistance. The idea behind of that is to show what is the increment percentage on the volume bar respect to the previous volume bar. Also it paints the current volume bar in different colors depending if the bar is a quarter, two quarter, three quarter o four quarter from the prvious bar, and it paints the bars above a certain value (fixed by the user, default = 30) in a different color.
 
+## Requirements
+    Ninjatrader 8
+    https://ninjatraderecosystem.com/user-app-share-download/universal-counter/  --> Recommended
+
 ## Configuration
 
 <p align="center">
