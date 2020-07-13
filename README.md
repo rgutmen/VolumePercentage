@@ -30,7 +30,7 @@ This indicator allows you to detect how the volume is fluctuating according to t
 The functionality is described on the next lines, about why the bars painted like they are in the image.
 
 <p align="center">
-  <img src="https://github.com/rgutmen/VolumePercentage/blob/master/resources/VP_2.png" />
+  <img src="https://github.com/rgutmen/VolumePercentage/blob/master/resources/VP_3.png" />
 </p>
 
 
