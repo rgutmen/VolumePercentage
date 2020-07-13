@@ -1,6 +1,6 @@
 # VolumePercentage
 
-This indicator allows you to detect how the volume is fluctuating according to the price, especially in relevant levels like support and resistance. The idea behind of that is to show what is the increment percentage on the volume bar respect to the previous volume bar. Also it paints the current volume bar in different colors depending if the bar is a quarter, two quarter, three quarter o four quarter from the prvious bar, and it paints the bars above a certain value (fixed by the user, default = 30) in a different color.
+This indicator allows you to detect how the volume is fluctuating according to the price, especially in relevant levels like support and resistance. The idea behind of that is to show what is the increment percentage on the volume bar respect to the previous volume bar. Also it paints the current volume bar in different colours depending if the bar is a quarter, second quarter, third quarter or fourth quarter from the previous bar, and it paints the bars above a certain value (fixed by the user, default = 30) in a different colour.
 
 ## Requirements
     Ninjatrader 8
@@ -12,18 +12,19 @@ This indicator allows you to detect how the volume is fluctuating according to t
   <img src="https://github.com/rgutmen/VolumePercentage/blob/master/resources/VP_1.png" />
 </p>
 
-* Color parameters
-  * First Quarter: Volume bar color, when the value is less than a quarter from the previous bar. => PV * (1/4) > CV
-  * Second Quarter: Volume bar color, when the value is less than a second quarter and higher than a quarter from the previous bar. => (PV * (1/4)) < CV < (PV * (2/4))
-  * Third Quarter: Volume bar color, when the value is less than a third quarter and higher than second quarter from the previous bar. => (PV * (2/4)) < CV < (PV * (3/4))
-  * Fourth Quarter: Volume bar color, when the value is less than a fourth quarter and higher than third quarter from the previous bar. => (PV * (3/4)) < CV < (PV * (4/4))
+* Colour parameters
+  * First Quarter: Volume bar colour, when the value is less than a quarter from the previous bar. => PV * (1/4) > CV
+  * Second Quarter: Volume bar colour, when the value is less than a second quarter and higher than a quarter from the previous bar. => (PV * (1/4)) < CV < (PV * (2/4))
+  * Third Quarter: Volume bar colour, when the value is less than a third quarter and higher than second quarter from the previous bar. => (PV * (2/4)) < CV < (PV * (3/4))
+  * Fourth Quarter: Volume bar colour, when the value is less than a fourth quarter and higher than third quarter from the previous bar. => (PV * (3/4)) < CV < (PV * (4/4))
     * Current Volume: CV
     * Previous Volume: PV
-  * Color bullish candle: When the volume is above the value assigned by the user, and the candle is bullish. The candle and the volume bar are painted with this color selected.
-  * Color bearish candle: When the volume is above the value assigned by the user, and the candle is bearish. The candle and the volume bar are painted with this color selected.
+  * Colour bullish candle: When the volume is above the value assigned by the user, and the candle is bullish. The candle and the volume bar are painted with this colour selected.
+  * Colour bearish candle: When the volume is above the value assigned by the user, and the candle is bearish. The candle and the volume bar are painted with this colour selected.
 
 * Parameters 
   * Percentage: Is the volume increment (in percentage, for example: 30, it means 30% of the volume)
+  * RightBottom corner separation: is the amount of 'tabs' (Tab Key) to separate the 'percentage' (for every candle bar) from the right border.
    
 ## How it works?
 
@@ -58,4 +59,4 @@ I have learn about:
 * Trading.
 
 ## Improvements
-* Use the VWAP to color de candles, instead bullish and bearish.
+* Use the VWAP to colour de candles if the price is above or below, instead bullish and bearish.
