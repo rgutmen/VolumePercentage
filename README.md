@@ -6,6 +6,13 @@ This indicator allows you to detect how the volume is fluctuating according to t
     Ninjatrader 8
     https://ninjatraderecosystem.com/user-app-share-download/universal-counter/  --> Recommended
 
+## How to install?
+Copy the file on:
+    C:\Users\<user_name>\Documents\NinjaTrader 8\bin\Custom\Indicators
+    
+Then on NinjaTrader, New\NinjaScript Editor. Press the buttom: _Compile_
+After that, the indicator will be in the Indicators menu. (Ctrl + I)
+
 ## Configuration
 
 <p align="center">
